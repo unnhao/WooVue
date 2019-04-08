@@ -1,0 +1,30 @@
+blockquote{
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px 10px 0 10px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 10px 10px 0px 0px;
+
+    div{
+        margin: 0 0 0.5em;
+        border-radius: 1em;
+        padding: 0.5em 1em;
+        background-color: #e5e5ea;
+        max-width: 85%;
+        clear: both;
+        word-wrap: break-word;
+        display: block;
+    }
+    .system{
+        margin: 0 auto;
+        text-align: center;
+        background-color: transparent;
+    }
+    .time{
+        color: #AAA;
+        border-radius: 0;
+    }
+    .text{
+        line-height: 1.35;
+    }
+}

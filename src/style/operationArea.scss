@@ -1,0 +1,48 @@
+  .operationArea{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    position:fixed;  
+    bottom:0;  
+    width:100%;
+    height:50px;
+    background: #eff0f1;
+
+    input{
+      font-size: 16px;
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    input[type="button"]{
+      background: #eff0f1;
+      color: #ff5e3a;
+      border-radius: 5px;
+      border: 0;
+      padding: 0 3px;
+      font-weight: bold;
+    }
+    input[type="text"]{
+      border-radius: 5px;
+      background: #FFF;
+      border: 1px solid #bebfc0;
+      padding: 0px 10px;
+      margin: 0;
+      padding: 0px 5px;
+      line-height: 1.35;
+    }
+    .inputText{
+      width:100%;   
+      padding: 5px 3px;          
+    }
+    .sendBtn{
+      width:50px;
+      padding: 0 3px;
+    }
+    .exitBtn{
+      width:50px;
+      padding: 0 3px;
+    }
+  }
+  
