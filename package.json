@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gsap": "^2.1.2",
     "install": "^0.12.2",
     "jquery": "^3.3.1",
